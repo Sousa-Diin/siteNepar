@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body{
+	background-color: 	#696969;
+	-webkit-box-pack: justify;
+}
+	
+#identidade {
+	background-color: #F9FAFC;/**/
+	color: #0c3a56;
+}
+figure{
+	box-shadow: 3px 3px 6px black;
+	padding:55px 0 0 0;
+	max-width: 750px;
+	min-height:250px;
+	margin:auto;
+	background-color:  rgba(0,1,0,.1);
+	border-radius: 3px;
+}
+
+.diretores {
+	background-color:#c0c0c0;/*rgba(75,78,83,.5);*/
+	height: 289px;
+}
+.team{
+	background-color:#5f9ea0;
+}
+.foto-equipe img {
+	width:95%;
+	border-radius: 3px;
+}
+ul#fotos-diretores li {
+    display: block;
+    border-radius: 55px;
+	float: left;
+	width: 100px;
+	height: 100px;
+	/*margin-bottom: 10%;*/
+    margin-left:130px;
+	border: 3px solid  #ffffff;
+	background-color: rgb(26, 48, 48);
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in;
+}
+ul#fotos-diretores li#foto03 {
+    background: url('../_imgagens/desenvolvimento.jpg')no-repeat;
+    background-position: 50% 50%;
+    background-size: 130px 130px;
+	background-color: #ffffff;
+}
+
+
+ul#fotos-diretores li span {
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: .5rem;
+	border-radius: 25px;
+	padding: 5px;
+	transition: 1s;
+	position:relative;
+}
+
+ul#fotos-diretores li:hover {
+	-webkit-transform: scale(1.5);
+}
+
+ul#fotos-diretores li:hover span{
+	opacity: 1;
+}
+
