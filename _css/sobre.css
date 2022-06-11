@@ -1,14 +1,61 @@
 @charset "UTF-8";
 body{
-	background-color: 	#696969;
+	background-color:#c0c0c0;/*rgba(75,78,83,.5);*/
 	-webkit-box-pack: justify;
 }
-	
+
+#space {
+	height:140px;
+}
+#about {
+	background-color:#F9FAFC;
+	display:flex;
+	-moz-box-align: center;
+	align-items: center;
+	-moz-box-pack: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 13% 3% 0 3% ;
+	margin:-20px -27px 0px -8px;
+}
+div#imagen-about img {
+	width:320px;
+}
+#imagen-about{
+	display: flex;
+	-moz-box-pack: center;
+	justify-content: center;
+	-moz-box-flex: 0.5;
+	flex-grow: 0.5;
+}
+
+aside#frase-about{
+	flex-grow: 0.5;
+	float:right;
+	text-align:justify; 
+	font-size:20px;
+	flex: 3 1 0%;
+	display: flex;
+	flex-direction: column;
+	color: black;
+	font-family: sans-serif;
+}
+#frase-about h2 {
+	text-align:center;
+	font-size:32px;
+}
+#valores{
+	clear:both;
+	background-color:rgba(255,255,255,.7);
+	margin:-20px -29px 0px -8px;
+}
 #identidade {
 	background-color: #F9FAFC;/**/
 	color: #0c3a56;
+	margin:0 auto;
+	
 }
-figure{
+figure.foto-equipe{
 	box-shadow: 3px 3px 6px black;
 	padding:55px 0 0 0;
 	max-width: 750px;
@@ -19,11 +66,14 @@ figure{
 }
 
 .diretores {
+	display: column-reverse;/* pay atetion*/
 	background-color:#c0c0c0;/*rgba(75,78,83,.5);*/
-	height: 289px;
+	min-height: 285px;
+	margin:-20px -29px 0px -8px;
 }
 .team{
 	background-color:#5f9ea0;
+	margin:-20px -29px 0px -8px;
 }
 .foto-equipe img {
 	width:95%;
@@ -42,8 +92,32 @@ ul#fotos-diretores li {
 	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
 	-webkit-transition: all .4s ease-in;
 }
+ul#fotos-diretores li#foto01 {
+    background: url('../_imgagens/user.png')no-repeat;
+    background-position: 50% 50%;
+    background-size: 130px 130px;
+	background-color: #ffffff;
+}
+ul#fotos-diretores li#foto02 {
+    background: url('../_imgagens/user.png')no-repeat;
+    background-position: 50% 50%;
+    background-size: 130px 130px;
+	background-color: #ffffff;
+}
 ul#fotos-diretores li#foto03 {
     background: url('../_imgagens/desenvolvimento.jpg')no-repeat;
+    background-position: 50% 50%;
+    background-size: 130px 130px;
+	background-color: #ffffff;
+}
+ul#fotos-diretores li#foto04 {
+    background: url('../_imgagens/user.png')no-repeat;
+    background-position: 50% 50%;
+    background-size: 130px 130px;
+	background-color: #ffffff;
+}
+ul#fotos-diretores li#foto05 {
+    background: url('../_imgagens/user.png')no-repeat;
     background-position: 50% 50%;
     background-size: 130px 130px;
 	background-color: #ffffff;
@@ -53,9 +127,10 @@ ul#fotos-diretores li#foto03 {
 ul#fotos-diretores li span {
 	opacity: 0;
 	color: #ffffff;
-	text-shadow: 1px 1px 1px #000000;
-	background-color: rgba(0,0,0,.3);
+	text-shadow: 2px 2px 5px #ffffff;
+	/*background-color: rgba(0,0,0,.3);*/
 	font-size: .5rem;
+	text-align:justify;
 	border-radius: 25px;
 	padding: 5px;
 	transition: 1s;
@@ -68,5 +143,7 @@ ul#fotos-diretores li:hover {
 
 ul#fotos-diretores li:hover span{
 	opacity: 1;
+	font-size:12pt;
+	color: rgba(0,0,0,.8);
 }
 

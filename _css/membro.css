@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body{
+	background: url('../_imgagens/background-member5.png') no-repeat 50% fixed;
+	margin: 0;
+	padding: 0;
+}
+.space img {
+	width:130px;
+	
+}
+
+.corpo {
+	
+	/*min-width:50%; responsive in smartphone*/
+	width:50%;
+	height:700px;
+	margin:0 auto;
+	background-color: rgba(0,48,69,.3);
+	border-radius:9px;
+	margin-bottom: 25px;
+	align-content: center;
+}
+
+.inner {
+	display: flex;
+	min-width: 400px 536px;
+	/*width: 400px 536px;*/
+	margin:auto;
+}
+
+
+.corpo img {
+	margin: auto;
+	width: 60px;
+	height:50px;
+}
+
+
+.corpo h1{
+  text-align: center;
+  color: #5E6C84;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+#main-container, .signup-container {
+	  width: 85%;
+	  height:520px;
+	  background-color: #FFFFFF;
+	  border-radius: 15px;
+	  padding: 25px 40px;
+	  box-shadow: rgba(0,0,0,0.2) 0 0 10px;
+	  margin: auto;
+	  /*display: flex;*/
+}
+	

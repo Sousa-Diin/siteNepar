@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
 
 body {
+	max-width:1374px;
     margin: 0;
     padding: 0;
-    margin-left: 8px;
     font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
     line-height: 1.45;
-	background-color:#dddddd;
+	background-color:#164453;
 }
 
 .menu-lateral {
@@ -17,15 +17,15 @@ body {
 }
 #page {
 	background-color: rgb(7, 49, 84);
-	margin:-20px -8px 0px -8px;
+	margin:-20px -4px 0px -4px;
 	position: fixed;
-	min-width: 98%;
+	width: 100%;
 	border-radius: 15px;
-	padding: 30px 18px 0 ;
+	padding: 30px 13px 0 ;
 	
 }
 #page ul {
-	margin-left: 40%;
+	margin-left: 38%;
 }
 #page  a span {
 	border: .6px solid #dddddd;
@@ -88,9 +88,7 @@ header.menu li {
   background-color: #001b2e;
   padding: 9em 0;
   text-align: center;
-	margin-top: -9px;
-  margin-left: -8px;
-  margin-right: -8px;
+  margin:-20px -33px 0px -8px;
  cursor: pointer;
 }
 .saudacoes h1 {
@@ -119,14 +117,14 @@ section {
     margin-left: -8px;
     margin-right: -8px;
     padding: 0 20px 0 20px;
-    max-width: 900px;
+    max-width: 910px;
 }
 .treinees {
   background-color: #FFFFFF;
-  margin: -10px -9px 0 -9px;
+  margin:-20px -33px 0px -8px;
   font-size: 20pt;
   background-image:url('_imgagens/trenee-logo.png') ;
-  background-position: 50% 50%;
+  background-position: 55% 55%;
   background-repeat: no-repeat;
    
 }
@@ -165,14 +163,13 @@ section.treinees h1 {
 }
 section.parceiro {
   background: rgb(22, 114, 132) none repeat scroll 0% 0%;
-  margin-left: -8px;
-  margin-right: -8px;
+  margin:-20px -33px 0px -8px;
 }
 
 footer {
   background: #353535;
-  padding: 32px 0;margin-left: -8px;
-  margin-right: -8px;
+  padding: 32px 0;
+  margin:-20px -33px 0px -8px;
   text-align: center;
   min-height: 60%;
   color: #868686;
@@ -187,10 +184,10 @@ footer li {
     display: inline-block;
 }
 .rodape {
-  background-color:#dddddd;
-  padding: 55px 0px;
-  margin-left: -8px;
-  margin-right: -8px;
+  /*background-color:#000; test*/
+  -moz-box-align: justify;
+  margin:-20px -33px 0px -8px;
+  min-height:40rem;
 }
 
 footer li a {
@@ -203,17 +200,19 @@ footer li a:hover {
     color: white;
 }
 aside {
-	display: block;
+	display: flex;
 	float: left;
 	width: 400px;
 }
-section.lado direito  {
-	display: block;
-	float: right;
-	
-}
-.lado-esquerdo  {
+
+aside.lado-esquerdo  {
 	text-align: center;
+	flex-grow: 0.5;
+	float:left;
+	font-size:20px;
+	flex: 3 1 0%;
+	display: flex;
+	flex-direction: column;
 }
 .lado-esquerdo-redes img {
 	position: 50% 50%;
@@ -225,22 +224,16 @@ section.lado direito  {
 	width: 42px;
 	height:42px;
 }
+
 #contato{
-	width: 400px;
-	height: 447px;
-	background-color: #d8d8d8;
-	border-radius: 20px;
-    border: 1px solid black;
-    box-sizing: border-box;
-	text-align: center;
-	display: block;
-	float: right;
-	margin-top: 10px;
+	
+	background-color: green;/*#d8d8d8;*/	
 	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
 }
-.lado-direito input {
-	padding: 30pt;
+.form input {
+	padding: 10pt;
 }
+
 .logo-central{
   max-width: 55%;
 }
@@ -250,5 +243,5 @@ section.lado direito  {
   color:#FFFFFF;
   text-align: center;
   padding: 15px;
-  margin: 0 -8px  -15px -8px;
+  margin:-20px -33px 0px -8px;
 }
