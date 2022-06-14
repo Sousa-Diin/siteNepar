@@ -1,22 +1,27 @@
 @charset "UTF-8";
 
+*{
+	margin: 0px;
+	padding: 0px;
+}
 body {
 	/*background-color:#164453;*/
-	background-color: #ffffff;
+	background-color:#001b2e;
 	
 }
 #space {
+	background-color:#001b2e;
 	height:150px;
 }
 #corpo {
 	margin-top: -25px 5px 0 30px;
 	height:890px;
-    background-color: #ffffff;
+    background-color:#001b2e;
     
 }
 
 #grupo {
-	padding: 2%;
+	padding: 1%;
 	min-width:100%;
 	min-height:935px;
 	background-color:#001b2e;
@@ -26,32 +31,50 @@ body {
 #cAlbum {
 	padding: 2%;
 	margin: 20px ;
-	min-width:65%;
+	min-width:69%;
 	min-height: 50em;
 	justify-items: center;
 	text-align: center;
 	border: none;
 	overflow: hidden;
-	background-color:rgba(70,130,180,.4);
+	/*background-color:rgba(70,130,180,.4);*/
 	display: block;
 	float: right;
 }
 
 
- menu {
+#lateral menu {
 	position:fixed;
-	
 	min-width: 10%;
 	min-height: 25%;
 	 display: block;
 	float: right;
 	padding: 2%;
-	background-color: rgba(255,190,205,.4);
+	margin-top: 22px;
+	/*background-color: rgba(255,190,205,.4);*/
+	
 }
 menu ul {
 	color: (255,255,255,.6);
-	margin: 9% -13%;
+	font-size: 13pt;
 }
 #lateral li {
 	text-align: center;
 }
+#lateral ul {
+	list-style: none;
+}
+
+#lateral a {
+	
+	/*background-color:red;*/
+	display: block;
+	padding: 15px 5px;
+	color : rgba(184,134,11,.9);
+	transition: 1s;
+	text-decoration: none;
+}
+ #lateral a:hover{
+	 background-color:rgba(70,130,180);
+	 color:#ffffff;
+ }
