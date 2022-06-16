@@ -16,7 +16,7 @@ body{
 	justify-content: center;
 	flex-wrap: wrap;
 	padding: 13% 3% 0 3% ;
-	margin:-20px -27px 0px -8px;
+	margin:-20px 0px 0px 0px;
 }
 div#imagen-about img {
 	width:320px;
@@ -47,7 +47,7 @@ aside#frase-about{
 #valores{
 	clear:both;
 	background-color:rgba(255,255,255,.7);
-	margin:-20px -29px 0px -8px;
+	margin:-20px 0px 0px 0px;
 }
 #identidade {
 	background-color: #F9FAFC;/**/
@@ -69,11 +69,11 @@ figure.foto-equipe{
 	display: column-reverse;/* pay atetion*/
 	background-color:#c0c0c0;/*rgba(75,78,83,.5);*/
 	min-height: 285px;
-	margin:-20px -29px 0px -8px;
+	margin:-20px 0px 0px 0px;
 }
 .team{
 	background-color:#5f9ea0;
-	margin:-20px -29px 0px -8px;
+	margin:-20px 0px 0px 0px;
 }
 .foto-equipe img {
 	width:95%;
