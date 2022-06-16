@@ -14,7 +14,7 @@ body{
 	
 	/*min-width:50%; responsive in smartphone*/
 	width:50%;
-	height:700px;
+	height:auto;
 	margin:0 auto;
 	background-color: rgba(0,48,69,.3);
 	border-radius:9px;

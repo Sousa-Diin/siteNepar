@@ -29,6 +29,7 @@ body {
 }
 #page ul {
 	margin-left: 38%;
+  text-transform: uppercase;
 }
 #page  a span {
 	border: .6px solid #dddddd;
@@ -228,11 +229,6 @@ aside.lado-esquerdo  {
 	height:42px;
 }
 
-#contato{
-	
-	background-color: green;/*#d8d8d8;*/	
-	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
-}
 .form input {
 	padding: 10pt;
 }
@@ -249,3 +245,8 @@ aside.lado-esquerdo  {
   width: auto;
   
 }
+
+#PgUp {
+	background: #353535;
+	align-content: middle;
+	}

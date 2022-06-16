@@ -33,7 +33,7 @@ body {
 }
 
 #cAlbum {
-	padding: 2%;
+	padding: .5%;
 	margin: 20px ;
 	min-width:69%;
 	min-height: 50em;
@@ -41,7 +41,7 @@ body {
 	text-align: center;
 	border: none;
 	overflow: hidden;
-	background-color:rgba(70,130,180,.4);
+	background-color:rgba(210,180,140,.9);
 	display: block;
 	float: right;
 }
@@ -49,13 +49,13 @@ body {
 
 #lateral menu {
 	position:fixed;
-	min-width: 10%;
+	min-width: 6%;
 	min-height: 25%;
-	 display: block;
+	display: block;
 	float: right;
 	padding: 2%;
 	margin-top: 22px;
-	background-color: rgba(255,190,205,.4);/*Teste*/
+	/*background-color: rgba(255,190,205,.4);/*Teste*/
 	
 }
 menu ul {
@@ -69,19 +69,22 @@ menu ul {
 	list-style: none;
 }
 
-#lateral a {
+#lateral li a {
 	
-	background-color:red;
+	background-color:rgba(255,255,255,.7) ;/*Test*/
 	display: block;
 	padding: 15px 5px;
 	color : rgba(184,134,11,.9);
-	transition: 1s;
+	border-right:8px solid #008B8B;
+	transition: .2s;
 	text-decoration: none;
 }
- #lateral a:hover{
+ #lateral li a:hover{
 	
-	 background-color:rgba(70,130,180);
+	
 	 color:#ffffff;
+	 border-right:none;
+	 text-transform: uppercase;
  }
 
  .footer{
@@ -90,3 +93,4 @@ menu ul {
 	text-align: center;
 	padding: 15px;
  }
+
