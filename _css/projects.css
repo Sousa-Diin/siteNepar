@@ -34,12 +34,13 @@ body {
 
 #cAlbum {
 	padding: .5%;
-	margin: 20px ;
+	margin-left:px;
 	min-width:69%;
 	min-height: 50em;
 	justify-items: center;
 	text-align: center;
 	border: none;
+	box-shadow: 4px 3px 5px 3px rgba(255,255,255,.6);
 	overflow: hidden;
 	background-color:rgba(210,180,140,.9);
 	display: block;
@@ -49,12 +50,12 @@ body {
 
 #lateral menu {
 	position:fixed;
-	min-width: 6%;
+	min-width: 5%;
 	min-height: 25%;
 	display: block;
 	float: right;
-	padding: 2%;
-	margin-top: 22px;
+	padding: 1%;
+	margin-top: 15px;
 	/*background-color: rgba(255,190,205,.4);/*Teste*/
 	
 }
@@ -93,4 +94,3 @@ menu ul {
 	text-align: center;
 	padding: 15px;
  }
-
